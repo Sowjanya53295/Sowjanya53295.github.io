@@ -23,12 +23,6 @@
        	}
        };
 
-       function targetPageParams() {
-            return {
-               "at_property": "b8e86afb-d729-3861-345e-810d580e6a06",
-               "memberStatus": "gold"
-            };
-         }
   </script>
 
 <!--Target page params -->
@@ -38,23 +32,23 @@ var ipaddressval ="";
        ipaddressval = data.ip;
    })
 
-  window.targetPageParams = function() {
-     return {
-       "a": 1,
-       "b": 2,
-       "profile": {
-                     "memberStatus": "Gold",
-                     "geolocation":{
-                       "ispName":"pune"
-                     },
-                     "country": {
-                                   "city": "San Francisco"
-                               }
-                 },
-          "loggedinStatus": ""
-     };
+//   window.targetPageParams = function() {
+//      return {
+//        "a": 1,
+//        "b": 2,
+//        "profile": {
+//                      "memberStatus": "Gold",
+//                      "geolocation":{
+//                        "ispName":"pune"
+//                      },
+//                      "country": {
+//                                    "city": "San Francisco"
+//                                }
+//                  },
+//           "loggedinStatus": ""
+//      };
 
-   };
+//    };
 </script>
    <script>
       document.documentElement.className += ' js';
@@ -65,7 +59,11 @@ var ipaddressval ="";
         "memberStatus": "gold"
       };
     }*/
-
+    function targetPageParams() {
+            return {
+               "at_property": "b8e86afb-d729-3861-345e-810d580e6a06"
+            };
+         }
    </script>
    
    <link rel="stylesheet" href="designs/geometrixx-outdoors/clientlibs_desktop_v1.css" type="text/css">
